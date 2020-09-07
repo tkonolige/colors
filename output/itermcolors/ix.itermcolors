@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Base16 {{scheme-name}}
-    Template: Chris Kempson, Scheme: {{scheme-author}}
-    semanticClass: theme.base16.{{scheme-slug}}
+    Base16 ix
+    Template: Chris Kempson, Scheme: etidev
+    semanticClass: theme.base16.ix
 
     MIT License
 
@@ -35,253 +35,254 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base00-dec-b}}</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>{{base00-dec-g}}</real>
+		<real>0.11372549019607843</real>
 		<key>Red Component</key>
-		<real>{{base00-dec-r}}</real>
+		<real>0.027450980392156862</real>
 	</dict>
 	<key>Ansi 1 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base01-dec-b}}</real>
+		<real>0.6666666666666666</real>
 		<key>Green Component</key>
-		<real>{{base01-dec-g}}</real>
+		<real>0.6313725490196078</real>
 		<key>Red Component</key>
-		<real>{{base01-dec-r}}</real>
+		<real>0.9725490196078431</real>
 	</dict>
 	<key>Ansi 10 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base0A-dec-b}}</real>
+		<real>0.7137254901960784</real>
 		<key>Green Component</key>
-		<real>{{base0A-dec-g}}</real>
+		<real>0.8823529411764706</real>
 		<key>Red Component</key>
-		<real>{{base0A-dec-r}}</real>
+		<real>0.6784313725490196</real>
 	</dict>
 	<key>Ansi 11 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base02-dec-b}}</real>
+		<real>0.5843137254901961</real>
 		<key>Green Component</key>
-		<real>{{base02-dec-g}}</real>
+		<real>0.7686274509803922</real>
 		<key>Red Component</key>
-		<real>{{base02-dec-r}}</real>
+		<real>0.5490196078431373</real>
 	</dict>
 	<key>Ansi 12 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base0C-dec-b}}</real>
+		<real>0.8941176470588236</real>
 		<key>Green Component</key>
-		<real>{{base0C-dec-g}}</real>
+		<real>0.8588235294117647</real>
 		<key>Red Component</key>
-		<real>{{base0C-dec-r}}</real>
+		<real>0.7098039215686275</real>
 	</dict>
 	<key>Ansi 13 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base0D-dec-b}}</real>
+		<real>0.9803921568627451</real>
 		<key>Green Component</key>
-		<real>{{base0D-dec-g}}</real>
+		<real>0.796078431372549</real>
 		<key>Red Component</key>
-		<real>{{base0D-dec-r}}</real>
+		<real>0.7137254901960784</real>
 	</dict>
 	<key>Ansi 14 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base0E-dec-b}}</real>
+		<real>0.7843137254901961</real>
 		<key>Green Component</key>
-		<real>{{base0E-dec-g}}</real>
+		<real>0.8156862745098039</real>
 		<key>Red Component</key>
-		<real>{{base0E-dec-r}}</real>
+		<real>0.6392156862745098</real>
 	</dict>
 	<key>Ansi 15 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base0F-dec-b}}</real>
+		<real>0.9725490196078431</real>
 		<key>Green Component</key>
-		<real>{{base0F-dec-g}}</real>
+		<real>0.9725490196078431</real>
 		<key>Red Component</key>
-		<real>{{base0F-dec-r}}</real>
+		<real>0.9686274509803922</real>
 	</dict>
 	<key>Ansi 2 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base02-dec-b}}</real>
+		<real>0.5843137254901961</real>
 		<key>Green Component</key>
-		<real>{{base02-dec-g}}</real>
+		<real>0.7686274509803922</real>
 		<key>Red Component</key>
-		<real>{{base02-dec-r}}</real>
+		<real>0.5490196078431373</real>
 	</dict>
 	<key>Ansi 3 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base03-dec-b}}</real>
+		<real>0.6666666666666666</real>
 		<key>Green Component</key>
-		<real>{{base03-dec-g}}</real>
+		<real>0.8784313725490196</real>
 		<key>Red Component</key>
-		<real>{{base03-dec-r}}</real>
+		<real>0.9411764705882353</real>
 	</dict>
 	<key>Ansi 4 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base04-dec-b}}</real>
+		<real>0.7607843137254902</real>
 		<key>Green Component</key>
-		<real>{{base04-dec-g}}</real>
+		<real>0.7137254901960784</real>
 		<key>Red Component</key>
-		<real>{{base04-dec-r}}</real>
+		<real>0.5411764705882353</real>
 	</dict>
 	<key>Ansi 5 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base05-dec-b}}</real>
+		<real>0.8509803921568627</real>
 		<key>Green Component</key>
-		<real>{{base05-dec-g}}</real>
+		<real>0.6627450980392157</real>
 		<key>Red Component</key>
-		<real>{{base05-dec-r}}</real>
+		<real>0.5803921568627451</real>
 	</dict>
 	<key>Ansi 6 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base06-dec-b}}</real>
+		<real>0.6745098039215687</real>
 		<key>Green Component</key>
-		<real>{{base06-dec-g}}</real>
+		<real>0.7098039215686275</real>
 		<key>Red Component</key>
-		<real>{{base06-dec-r}}</real>
+		<real>0.49411764705882355</real>
 	</dict>
 	<key>Ansi 7 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base07-dec-b}}</real>
+		<real>0.7568627450980392</real>
 		<key>Green Component</key>
-		<real>{{base07-dec-g}}</real>
+		<real>0.7450980392156863</real>
 		<key>Red Component</key>
-		<real>{{base07-dec-r}}</real>
+		<real>0.7019607843137254</real>
 	</dict>
 	<key>Ansi 8 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base08-dec-b}}</real>
+		<real>0.47058823529411764</real>
 		<key>Green Component</key>
-		<real>{{base08-dec-g}}</real>
+		<real>0.4470588235294118</real>
 		<key>Red Component</key>
-		<real>{{base08-dec-r}}</real>
+		<real>0.3803921568627451</real>
 	</dict>
 	<key>Ansi 9 Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base09-dec-b}}</real>
+		<real>0.7490196078431373</real>
 		<key>Green Component</key>
-		<real>{{base09-dec-g}}</real>
+		<real>0.7019607843137254</real>
 		<key>Red Component</key>
-		<real>{{base09-dec-r}}</real>
+		<real>0.9137254901960784</real>
 	</dict>
 	<key>Background Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{background-dec-b}}</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>{{background-dec-g}}</real>
+		<real>0.11372549019607843</real>
 		<key>Red Component</key>
-		<real>{{background-dec-r}}</real>
+		<real>0.027450980392156862</real>
 	</dict>
 	<key>Bold Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base05-dec-b}}</real>
+		<real>0.8509803921568627</real>
 		<key>Green Component</key>
-		<real>{{base05-dec-g}}</real>
+		<real>0.6627450980392157</real>
 		<key>Red Component</key>
-		<real>{{base05-dec-r}}</real>
+		<real>0.5803921568627451</real>
 	</dict>
 	<key>Cursor Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{foreground-dec-b}}</real>
+		<real>1</real>
 		<key>Green Component</key>
-		<real>{{foreground-dec-g}}</real>
+		<real>1</real>
 		<key>Red Component</key>
-		<real>{{foreground-dec-r}}</real>
+		<real>1</real>
 	</dict>
 	<key>Cursor Text Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{background-dec-b}}</real>
+		<real>0.13333333333333333</real>
 		<key>Green Component</key>
-		<real>{{background-dec-g}}</real>
+		<real>0.11372549019607843</real>
 		<key>Red Component</key>
-		<real>{{background-dec-r}}</real>
+		<real>0.027450980392156862</real>
 	</dict>
 	<key>Foreground Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{foreground-dec-b}}</real>
+		<real>1</real>
 		<key>Green Component</key>
-		<real>{{foreground-dec-g}}</real>
+		<real>1</real>
 		<key>Red Component</key>
-		<real>{{foreground-dec-r}}</real>
+		<real>1</real>
 	</dict>
 	<key>Selected Text Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{foreground-dec-b}}</real>
+		<real>1</real>
 		<key>Green Component</key>
-		<real>{{foreground-dec-g}}</real>
+		<real>1</real>
 		<key>Red Component</key>
-		<real>{{foreground-dec-r}}</real>
+		<real>1</real>
 	</dict>
 	<key>Selection Color</key>
 	<dict>
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{base08-dec-b}}</real>
+		<real>0.47058823529411764</real>
 		<key>Green Component</key>
-		<real>{{base08-dec-g}}</real>
+		<real>0.4470588235294118</real>
 		<key>Red Component</key>
-		<real>{{base08-dec-r}}</real>
+		<real>0.3803921568627451</real>
 	</dict>
 </dict>
 </plist>
+
