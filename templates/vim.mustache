@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" io scheme by etidev
+" {{scheme-name}} scheme by {{scheme-author}}
 
 " Copyright (C) 2012 [Chris Kempson](http://chriskempson.com)
 "
@@ -26,47 +26,47 @@
 " WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 " GUI color definitions
-let s:guifg        = "ffffff"
-let g:base16_guifg = "ffffff"
-let s:guibg        = "051519"
-let g:base16_guibg = "051519"
-let s:guiblack        = "051519"
-let g:base16_guiblack = "051519"
-let s:guired        = "f8818e"
-let g:base16_guired = "f8818e"
-let s:guigreen        = "84969a"
-let g:base16_guigreen = "84969a"
-let s:guiyellow        = "97a6aa"
-let g:base16_guiyellow = "97a6aa"
-let s:guiblue        = "5e6f73"
-let g:base16_guiblue = "5e6f73"
-let s:guimagenta        = "677a7e"
-let g:base16_guimagenta = "677a7e"
-let s:guicyan        = "7b8e93"
-let g:base16_guicyan = "7b8e93"
-let s:guiwhite        = "b3bec1"
-let g:base16_guiwhite = "b3bec1"
-let s:guiblackb        = "323b3e"
-let g:base16_guiblackb = "323b3e"
-let s:guiredb        = "fb3d66"
-let g:base16_guiredb = "fb3d66"
-let s:guigreenb        = "22292a"
-let g:base16_guigreenb = "22292a"
-let s:guiyellowb        = "3e494c"
-let g:base16_guiyellowb = "3e494c"
-let s:guiblueb        = "a2b0b3"
-let g:base16_guiblueb = "a2b0b3"
-let s:guimagentab        = "e0e5e6"
-let g:base16_guimagentab = "e0e5e6"
-let s:guicyanb        = "556468"
-let g:base16_guicyanb = "556468"
-let s:guiwhiteb        = "f7f8f8"
-let g:base16_guiwhiteb = "f7f8f8"
+let s:guifg        = "{{foreground-hex}}"
+let g:base16_guifg = "{{foreground-hex}}"
+let s:guibg        = "{{background-hex}}"
+let g:base16_guibg = "{{background-hex}}"
+let s:guiblack        = "{{base00-hex}}"
+let g:base16_guiblack = "{{base00-hex}}"
+let s:guired        = "{{base01-hex}}"
+let g:base16_guired = "{{base01-hex}}"
+let s:guigreen        = "{{base02-hex}}"
+let g:base16_guigreen = "{{base02-hex}}"
+let s:guiyellow        = "{{base03-hex}}"
+let g:base16_guiyellow = "{{base03-hex}}"
+let s:guiblue        = "{{base04-hex}}"
+let g:base16_guiblue = "{{base04-hex}}"
+let s:guimagenta        = "{{base05-hex}}"
+let g:base16_guimagenta = "{{base05-hex}}"
+let s:guicyan        = "{{base06-hex}}"
+let g:base16_guicyan = "{{base06-hex}}"
+let s:guiwhite        = "{{base07-hex}}"
+let g:base16_guiwhite = "{{base07-hex}}"
+let s:guiblackb        = "{{base08-hex}}"
+let g:base16_guiblackb = "{{base08-hex}}"
+let s:guiredb        = "{{base09-hex}}"
+let g:base16_guiredb = "{{base09-hex}}"
+let s:guigreenb        = "{{base0A-hex}}"
+let g:base16_guigreenb = "{{base0A-hex}}"
+let s:guiyellowb        = "{{base0B-hex}}"
+let g:base16_guiyellowb = "{{base0B-hex}}"
+let s:guiblueb        = "{{base0C-hex}}"
+let g:base16_guiblueb = "{{base0C-hex}}"
+let s:guimagentab        = "{{base0D-hex}}"
+let g:base16_guimagentab = "{{base0D-hex}}"
+let s:guicyanb        = "{{base0E-hex}}"
+let g:base16_guicyanb = "{{base0E-hex}}"
+let s:guiwhiteb        = "{{base0F-hex}}"
+let g:base16_guiwhiteb = "{{base0F-hex}}"
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-io"
+let g:colors_name = "base16-{{scheme-slug}}"
 
 " Highlighting function
 " Optional variables are attributes and guisp
@@ -339,4 +339,3 @@ delf <sid>hi
 
 " Remove color variables
 unlet s:guiblack s:guired s:guigreen s:guiyellow  s:guiblue  s:guimagenta  s:guicyan  s:guiwhite  s:guiblackb  s:guiredb s:guigreenb  s:guiyellowb  s:guiblueb  s:guimagentab  s:guicyanb  s:guiwhiteb
-
