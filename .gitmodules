@@ -1,0 +1,6 @@
+[submodule "base16-iterm2"]
+	path = base16-iterm2
+	url = git@github.com:tkonolige/base16-iterm2.git
+[submodule "base16-vim"]
+	path = base16-vim
+	url = git@github.com:tkonolige/base16-vim.git

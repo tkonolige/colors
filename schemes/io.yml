@@ -1,0 +1,28 @@
+scheme: "io"
+author: "etidev"
+colorfg: "ffffff"
+colorbg: "051519"
+
+black: "051519"
+blackb: "323b3e"
+
+red: "f8818e"
+redb: "fb3d66"
+
+green: "84969a"
+greenb: "22292a"
+
+yellow: "97a6aa"
+yellowb: "3e494c"
+
+blue: "5e6f73"
+blueb: "a2b0b3"
+
+magenta: "677a7e"
+magentab: "e0e5e6"
+
+cyan: "7b8e93"
+cyanb: "556468"
+
+white: "b3bec1"
+whiteb: "f7f8f8"

@@ -1,0 +1,26 @@
+author: "crshd"
+scheme: "getfresh"
+colorfg: "DDCCBB"
+
+# brown bg
+# colorbg: "30251D"
+
+colorbg: "151515"
+
+
+black: "393939"
+blackb: "AF875F"
+red: "BF1E2D"
+redb: "E7212A"
+green: "9DBA3A"
+greenb: "A9C938"
+yellow: "F5B915"
+yellowb: "F7D325"
+blue: "1CA1DB"
+blueb: "00AFDA"
+magenta: "652F90"
+magentab: "894E9F"
+cyan: "EA7D24"
+cyanb: "F79321"
+white: "E7E8E9"
+whiteb: "F3F3F4"
