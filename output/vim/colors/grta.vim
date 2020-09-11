@@ -334,6 +334,11 @@ call <sid>hi("rustFunction",  s:guiwhiteb, "", "", "", "", "")
 call <sid>hi("rustFuncName",  s:guimagenta, "", "", "", "", "")
 call <sid>hi("rustFuncCall",  s:guiwhiteb, "", "", "", "", "")
 
+" LSP
+call <sid>hi("LspDiagnosticsError",  s:guimagenta, "", "", "", "", "")
+call <sid>hi("LspDiagnosticsWarning",  s:guired, "", "", "", "", "")
+call <sid>hi("LspDiagnosticsInformation",  s:guiyellow, "", "", "", "", "")
+
 " Remove functions
 delf <sid>hi
 
