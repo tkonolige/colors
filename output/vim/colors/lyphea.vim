@@ -66,7 +66,7 @@ let g:base16_guiwhiteb = "383838"
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-lyphea"
+let g:colors_name = "lyphea"
 
 " Highlighting function
 " Optional variables are attributes and guisp

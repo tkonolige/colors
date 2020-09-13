@@ -66,7 +66,7 @@ let g:base16_guiwhiteb = "f7f8f8"
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-io"
+let g:colors_name = "io"
 
 " Highlighting function
 " Optional variables are attributes and guisp

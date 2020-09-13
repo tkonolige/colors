@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" GRTA scheme by escapist
+" grta scheme by escapist
 
 " Copyright (C) 2012 [Chris Kempson](http://chriskempson.com)
 "
@@ -66,7 +66,7 @@ let g:base16_guiwhiteb = "cfc6af"
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-GRTA"
+let g:colors_name = "grta"
 
 " Highlighting function
 " Optional variables are attributes and guisp
