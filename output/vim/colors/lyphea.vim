@@ -173,7 +173,7 @@ call <sid>hi("StorageClass", s:guiyellow, "", "", "", "", "")
 call <sid>hi("String",       s:guigreen, "", "", "", "", "")
 call <sid>hi("Structure",    s:guicyanb, "", "", "", "", "")
 call <sid>hi("Tag",          s:guigreenb, "", "", "", "", "")
-call <sid>hi("Todo",         s:guiyellow, "", "", "", "", "")
+call <sid>hi("Todo",         s:guiyellow, "none", "", "", "none", "")
 call <sid>hi("Type",         s:guigreen, "", "", "", "none", "")
 call <sid>hi("Typedef",      s:guigreenb, "", "", "", "", "")
 
