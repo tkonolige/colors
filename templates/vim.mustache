@@ -124,7 +124,7 @@ call <sid>hi("Underlined",    s:guiblackb, "", "", "", "", "")
 call <sid>hi("Visual",        "", s:guiblack, "", "", "", "")
 call <sid>hi("VisualNOS",     s:guiblackb, "", "", "", "", "")
 call <sid>hi("WarningMsg",    s:guiblackb, "", "", "", "", "")
-call <sid>hi("WildMenu",      s:guiblackb, s:guiblackb, "", "", "", "")
+call <sid>hi("WildMenu",      s:guifg, s:guiblackb, "", "", "", "")
 call <sid>hi("Title",         s:guimagentab, "", "", "", "none", "")
 call <sid>hi("Conceal",       s:guimagentab, s:guiblack, "", "", "", "")
 call <sid>hi("Cursor",        s:guiblack, s:guiwhite, "", "", "", "")
@@ -139,14 +139,14 @@ call <sid>hi("CursorColumn",  "", s:guiblack, "", "", "none", "")
 call <sid>hi("CursorLine",    "", s:guiblack, "", "", "none", "")
 call <sid>hi("CursorLineNr",  s:guiblue, s:guired, "", "", "", "")
 call <sid>hi("QuickFixLine",  "", s:guired, "", "", "none", "")
-call <sid>hi("PMenu",         s:guimagenta, s:guired, "", "", "none", "")
-call <sid>hi("PMenuSel",      s:guired, s:guimagenta, "", "", "", "")
+call <sid>hi("PMenu",         s:guifg, s:guiblack, "", "", "none", "")
+call <sid>hi("PMenuSel",      s:guifg, s:guiblackb, "", "", "", "")
 call <sid>hi("TabLine",       s:guiyellow, s:guired, "", "", "none", "")
 call <sid>hi("TabLineFill",   s:guiyellow, s:guired, "", "", "none", "")
 call <sid>hi("TabLineSel",    s:guiyellowb, s:guired, "", "", "none", "")
 
 " Floating window
-call <sid>hi("NormalFloat", s:guifg, s:guibg, "", "", "", "")
+call <sid>hi("NormalFloat", s:guifg, s:guiblack, "", "", "", "")
 
 " Standard syntax highlighting
 call <sid>hi("Boolean",      s:guiyellowb, "", "", "", "", "")
@@ -338,6 +338,9 @@ call <sid>hi("rustFuncCall",  s:guiwhiteb, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsError",  s:guimagenta, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsWarning",  s:guired, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsInformation",  s:guiyellow, "", "", "", "", "")
+
+" treesitter
+hi link TSError Error
 
 " Remove functions
 delf <sid>hi
