@@ -74,12 +74,8 @@ function! g:Base16hi(group, guifg, guibg, ctermfg, ctermbg, ...)
   let l:attr = get(a:, 1, "")
   let l:guisp = get(a:, 2, "")
 
-  if a:guifg != ""
-    exec "hi " . a:group . " guifg=#" . a:guifg
-  endif
-  if a:guibg != ""
-    exec "hi " . a:group . " guibg=#" . a:guibg
-  endif
+  exec "hi " . a:group . " guifg=#" . a:guifg
+  exec "hi " . a:group . " guibg=#" . a:guibg
   if a:ctermfg != ""
     exec "hi " . a:group . " ctermfg=" . a:ctermfg
   endif
@@ -104,15 +100,15 @@ call <sid>hi("Normal",        s:guifg, "", "", "", "", "")
 call <sid>hi("Bold",          "", "", "", "", "bold", "")
 call <sid>hi("Debug",         s:guiyellow, "", "", "", "", "")
 call <sid>hi("Directory",     s:guimagentab, "", "", "", "", "")
-call <sid>hi("Error",         s:guiredb, s:guiblackb, "", "", "", "")
-call <sid>hi("ErrorMsg",      s:guiredb, s:guiblack, "", "", "", "")
+call <sid>hi("Error",         s:guired, "", "", "", "", "")
+call <sid>hi("ErrorMsg",      s:guired, "", "", "", "", "")
 call <sid>hi("Exception",     s:guiyellowb, "", "", "", "", "")
-call <sid>hi("FoldColumn",    s:guiblueb, s:guired, "", "", "", "")
-call <sid>hi("Folded",        s:guiyellow, s:guired, "", "", "", "")
-call <sid>hi("IncSearch",     s:guired, s:guiredb, "", "", "none", "")
+call <sid>hi("FoldColumn",    s:guiblueb, "", "", "", "", "")
+call <sid>hi("Folded",        s:guiyellow, "", "", "", "", "")
+call <sid>hi("IncSearch",     s:guiwhiteb, "", "", "", "none", "")
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:guired, "", "", "", "", "")
-call <sid>hi("MatchParen",    "", s:guiyellow, "", "",  "", "")
+call <sid>hi("MatchParen",    s:guiwhiteb, s:guibg, "", "",  "", "")
 call <sid>hi("ModeMsg",       s:guiyellowb, "", "", "", "", "")
 call <sid>hi("MoreMsg",       s:guiyellowb, "", "", "", "", "")
 call <sid>hi("Question",      s:guimagentab, "", "", "", "", "")
@@ -141,9 +137,9 @@ call <sid>hi("CursorLineNr",  s:guiblue, s:guired, "", "", "", "")
 call <sid>hi("QuickFixLine",  "", s:guired, "", "", "none", "")
 call <sid>hi("PMenu",         s:guifg, s:guiblack, "", "", "none", "")
 call <sid>hi("PMenuSel",      s:guifg, s:guiblackb, "", "", "", "")
-call <sid>hi("TabLine",       s:guiyellow, s:guired, "", "", "none", "")
-call <sid>hi("TabLineFill",   s:guiyellow, s:guired, "", "", "none", "")
-call <sid>hi("TabLineSel",    s:guiyellowb, s:guired, "", "", "none", "")
+call <sid>hi("TabLine",       s:guiyellow, "", "", "", "none", "")
+call <sid>hi("TabLineFill",   s:guiyellow, "", "", "", "none", "")
+call <sid>hi("TabLineSel",    s:guiyellowb, "", "", "", "none", "")
 
 " Floating window
 call <sid>hi("NormalFloat", s:guifg, s:guiblack, "", "", "", "")
