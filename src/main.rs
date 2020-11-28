@@ -1,9 +1,10 @@
+use mustache::MapBuilder;
 use serde::{de, Deserialize};
+use std::collections::HashMap;
 use std::fs::File;
 use std::io::BufReader;
 use std::path::PathBuf;
 use structopt::StructOpt;
-use mustache::MapBuilder;
 
 #[derive(Debug, StructOpt)]
 #[structopt(name = "colors", about = "Base-16 colors + some")]
@@ -121,10 +122,12 @@ struct Colors {
     foreground: Color,
     #[serde(alias = "colorbg")]
     background: Color,
+    #[serde(flatten)]
+    custom_colors: HashMap<String, HashMap<String, Color>>,
 }
 
-fn build_map(colors: &Colors) -> mustache::Data {
-    MapBuilder::new()
+fn build_map(template: &str, colors: &Colors) -> mustache::Data {
+    let mut builder = MapBuilder::new()
         .insert_str("scheme-author", colors.author.clone())
         .insert_str("scheme-name", colors.scheme.clone())
         .insert_str("scheme-slug", colors.scheme.clone())
@@ -311,19 +314,42 @@ fn build_map(colors: &Colors) -> mustache::Data {
         .insert_str("base0E-hex", colors.base0e.hex())
         .insert_str("base0F-hex", colors.base0f.hex())
         .insert_str("foreground-hex", colors.foreground.hex())
-        .insert_str("background-hex", colors.background.hex())
-        .build()
+        .insert_str("background-hex", colors.background.hex());
+
+    if let Some(custom_colors) = colors.custom_colors.get(template) {
+        for (color, value) in custom_colors {
+            builder = builder
+                .insert_str(color.to_owned() + "-hex", value.hex())
+                .insert_str(color.to_owned() + "-dec-r", value.dec_r())
+                .insert_str(color.to_owned() + "-dec-g", value.dec_g())
+                .insert_str(color.to_owned() + "-dec-b", value.dec_b())
+                .insert_str(color.to_owned() + "-hex-r", value.hex_r())
+                .insert_str(color.to_owned() + "-hex-g", value.hex_g())
+                .insert_str(color.to_owned() + "-hex-b", value.hex_b())
+                .insert_str(color.to_owned() + "-rgb-r", value.rgb_r())
+                .insert_str(color.to_owned() + "-rgb-g", value.rgb_g())
+                .insert_str(color.to_owned() + "-rgb-b", value.rgb_b());
+        }
+    }
+
+    builder.build()
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let opt = Opt::from_args();
 
-    let template = mustache::compile_path(opt.template)?;
+    let template = mustache::compile_path(&opt.template)?;
 
     let file = File::open(opt.scheme)?;
     let reader = BufReader::new(file);
     let colors: Colors = serde_yaml::from_reader(reader)?;
 
-    println!("{}",template.render_data_to_string(&build_map(&colors))?);
+    println!(
+        "{}",
+        template.render_data_to_string(&build_map(
+            opt.template.file_stem().unwrap().to_str().unwrap(),
+            &colors
+        ))?
+    );
     Ok(())
 }

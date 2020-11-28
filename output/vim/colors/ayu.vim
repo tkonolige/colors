@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" getfresh scheme by crshd
+" ayu scheme by dempfi
 
 " Copyright (C) 2012 [Chris Kempson](http://chriskempson.com)
 "
@@ -26,47 +26,47 @@
 " WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 " GUI color definitions
-let s:guifg        = "ddccbb"
-let g:base16_guifg = "ddccbb"
-let s:guibg        = "151515"
-let g:base16_guibg = "151515"
-let s:guiblack        = "393939"
-let g:base16_guiblack = "393939"
-let s:guired        = "bf1e2d"
-let g:base16_guired = "bf1e2d"
-let s:guigreen        = "9dba3a"
-let g:base16_guigreen = "9dba3a"
-let s:guiyellow        = "f5b915"
-let g:base16_guiyellow = "f5b915"
-let s:guiblue        = "1ca1db"
-let g:base16_guiblue = "1ca1db"
-let s:guimagenta        = "652f90"
-let g:base16_guimagenta = "652f90"
-let s:guicyan        = "ea7d24"
-let g:base16_guicyan = "ea7d24"
-let s:guiwhite        = "e7e8e9"
-let g:base16_guiwhite = "e7e8e9"
-let s:guiblackb        = "af875f"
-let g:base16_guiblackb = "af875f"
-let s:guiredb        = "e7212a"
-let g:base16_guiredb = "e7212a"
-let s:guigreenb        = "a9c938"
-let g:base16_guigreenb = "a9c938"
-let s:guiyellowb        = "f7d325"
-let g:base16_guiyellowb = "f7d325"
-let s:guiblueb        = "00afda"
-let g:base16_guiblueb = "00afda"
-let s:guimagentab        = "894e9f"
-let g:base16_guimagentab = "894e9f"
-let s:guicyanb        = "f79321"
-let g:base16_guicyanb = "f79321"
-let s:guiwhiteb        = "f3f3f4"
-let g:base16_guiwhiteb = "f3f3f4"
+let s:guifg        = "cbccc6"
+let g:base16_guifg = "cbccc6"
+let s:guibg        = "1f2430"
+let g:base16_guibg = "1f2430"
+let s:guiblack        = "323a4c"
+let g:base16_guiblack = "323a4c"
+let s:guired        = "f28779"
+let g:base16_guired = "f28779"
+let s:guigreen        = "a6cc70"
+let g:base16_guigreen = "a6cc70"
+let s:guiyellow        = "ffcc66"
+let g:base16_guiyellow = "ffcc66"
+let s:guiblue        = "77a8d9"
+let g:base16_guiblue = "77a8d9"
+let s:guimagenta        = "c594c5"
+let g:base16_guimagenta = "c594c5"
+let s:guicyan        = "5ccfe6"
+let g:base16_guicyan = "5ccfe6"
+let s:guiwhite        = "cbccc6"
+let g:base16_guiwhite = "cbccc6"
+let s:guiblackb        = "707a8c"
+let g:base16_guiblackb = "707a8c"
+let s:guiredb        = "f27983"
+let g:base16_guiredb = "f27983"
+let s:guigreenb        = "bae67e"
+let g:base16_guigreenb = "bae67e"
+let s:guiyellowb        = "ffa759"
+let g:base16_guiyellowb = "ffa759"
+let s:guiblueb        = "73d0ff"
+let g:base16_guiblueb = "73d0ff"
+let s:guimagentab        = "d4bfff"
+let g:base16_guimagentab = "d4bfff"
+let s:guicyanb        = "95e6cb"
+let g:base16_guicyanb = "95e6cb"
+let s:guiwhiteb        = "ffe6b3"
+let g:base16_guiwhiteb = "ffe6b3"
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "getfresh"
+let g:colors_name = "ayu"
 
 " Highlighting function
 " Optional variables are attributes and guisp
@@ -148,7 +148,7 @@ call <sid>hi("NormalFloat", s:guifg, s:guiblack, "", "", "", "")
 call <sid>hi("Boolean",         s:guiyellowb,              "",      "",  "",  "",      "")
 call <sid>hi("Character",       s:guigreen,                "",      "",  "",  "",      "")
 call <sid>hi("Comment",         s:guiwhite,                "",      "",  "",  "",      "")
-call <sid>hi("SpecialComment",  "",  "",      "",  "",  "",      "")
+call <sid>hi("SpecialComment",  "ffe6b3",  "",      "",  "",  "",      "")
 call <sid>hi("Conditional",     s:guicyanb,                "",      "",  "",  "",      "")
 call <sid>hi("Constant",        s:guicyanb,                "",      "",  "",  "",      "")
 call <sid>hi("Define",          s:guimagenta,              "",      "",  "",  "none",  "")

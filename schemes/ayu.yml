@@ -1,0 +1,48 @@
+scheme: "ayu"
+author: "dempfi"
+black: &black "#323a4c"
+blackb: &blackb "#707a8c"
+red: &red "#f28779"
+redb: &redb "#f27983"
+green: &green "#a6cc70"
+greenb: &greenb "#bae67e"
+yellow: &yellow "#ffcc66"
+yellowb: &yellowb "#ffa759"
+blue: &blue "#77a8d9"
+blueb: &blueb "#73d0ff"
+magenta: &magenta "#c594c5"
+magentab: &magentab "#d4bfff"
+cyan: &cyan "#5ccfe6"
+cyanb: &cyanb "#95e6cb"
+white: &white "#cbccc6"
+whiteb: &whiteb "#ffe6b3"
+colorfg: &colorfg "#cbccc6"
+colorbg: &colorbg "#1f2430"
+vim:
+  SpecialComment: *whiteb
+
+
+#191e2a
+#1f2430
+#232834
+#323a4c
+#33415e
+#5c6773
+#5ccfe6
+#707a8c
+#73d0ff
+#77a8d9
+#95e6cb
+#a6cc70
+#bae67e
+#c594c5
+#cbccc6
+#d4bfff
+#f27983
+#f28779
+#f29e74
+#ff3333
+#ffa759
+#ffcc66
+#ffd580
+#ffe6b3
