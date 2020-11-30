@@ -19,7 +19,8 @@ whiteb: &whiteb "#ffe6b3"
 colorfg: &colorfg "#cbccc6"
 colorbg: &colorbg "#1f2430"
 vim:
-  SpecialComment: *whiteb
+  Comment: *whiteb
+  SpecialComment: "#ffd580"
 
 
 #191e2a
