@@ -147,8 +147,15 @@ call <sid>hi("NormalFloat", s:guifg, s:guiblack, "", "", "", "")
 " Standard syntax highlighting
 call <sid>hi("Boolean",         s:guiyellowb,              "",      "",  "",  "",      "")
 call <sid>hi("Character",       s:guigreen,                "",      "",  "",  "",      "")
+{{#Comment-hex}}
+call <sid>hi("Comment",         "{{Comment-hex}}",                "",      "",  "",  "",      "")
+{{/Comment-hex}}
+{{^Comment-hex}}
 call <sid>hi("Comment",         s:guiwhite,                "",      "",  "",  "",      "")
+{{/Comment-hex}}
+{{#SpecialComment-hex}}
 call <sid>hi("SpecialComment",  "{{SpecialComment-hex}}",  "",      "",  "",  "",      "")
+{{/SpecialComment-hex}}
 call <sid>hi("Conditional",     s:guicyanb,                "",      "",  "",  "",      "")
 call <sid>hi("Constant",        s:guicyanb,                "",      "",  "",  "",      "")
 call <sid>hi("Define",          s:guimagenta,              "",      "",  "",  "none",  "")

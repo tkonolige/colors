@@ -147,7 +147,8 @@ call <sid>hi("NormalFloat", s:guifg, s:guiblack, "", "", "", "")
 " Standard syntax highlighting
 call <sid>hi("Boolean",         s:guiyellowb,              "",      "",  "",  "",      "")
 call <sid>hi("Character",       s:guigreen,                "",      "",  "",  "",      "")
-call <sid>hi("Comment",         s:guiwhite,                "",      "",  "",  "",      "")
+call <sid>hi("Comment",         "ffe6b3",                "",      "",  "",  "",      "")
+
 call <sid>hi("SpecialComment",  "ffd580",  "",      "",  "",  "",      "")
 call <sid>hi("Conditional",     s:guicyanb,                "",      "",  "",  "",      "")
 call <sid>hi("Constant",        s:guicyanb,                "",      "",  "",  "",      "")
