@@ -340,6 +340,33 @@ call <sid>hi("LspDiagnosticsInformation",  s:guiyellow, "", "", "", "", "")
 " treesitter
 hi link TSError Error
 
+
+" statusline
+call <sid>hi("lualine_a_insert",    s:guiyellowb,  s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_insert",    s:guiblack,    s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_insert",    s:guiblack,    s:guiblack,  "",  "",  "",  "")
+
+call <sid>hi("lualine_a_normal",    s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_normal",    s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_normal",    s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+
+call <sid>hi("lualine_a_visual",    s:guigreen,    s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_visual",    s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_visual",    s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+
+call <sid>hi("lualine_a_replace",   s:guired,      s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_replace",   s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_replace",   s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+
+call <sid>hi("lualine_a_command",   s:guiblueb,    s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_command",   s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_command",   s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+
+call <sid>hi("lualine_a_inactive",  s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_b_inactive",  s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+call <sid>hi("lualine_c_inactive",  s:guiblackb,   s:guiblack,  "",  "",  "",  "")
+
+
 " Remove functions
 delf <sid>hi
 
