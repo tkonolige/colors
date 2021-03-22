@@ -194,10 +194,10 @@ call <sid>hi("cssClassName",   s:guicyanb, "", "", "", "", "")
 call <sid>hi("cssColor",       s:guiblueb, "", "", "", "", "")
 
 " Diff highlighting
-call <sid>hi("DiffAdd",      s:greenb, "",  "", "", "", "")
+call <sid>hi("DiffAdd",      s:guigreenb, "",  "", "", "", "")
 call <sid>hi("DiffChange",   s:guiyellow, "",  "", "", "", "")
 call <sid>hi("DiffDelete",   s:guiredb, "",  "", "", "", "")
-call <sid>hi("DiffText",     s:yellow, "",  "", "", "", "")
+call <sid>hi("DiffText",     s:guiyellow, "",  "", "", "", "")
 call <sid>hi("DiffAdded",    s:guiyellowb, "",  "", "", "", "")
 call <sid>hi("DiffFile",     s:guiblackb, "",  "", "", "", "")
 call <sid>hi("DiffNewFile",  s:guiyellowb, "",  "", "", "", "")
