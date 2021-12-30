@@ -194,7 +194,7 @@ call <sid>hi("cssColor",       s:guiblueb, "", "", "", "", "")
 
 " Diff highlighting
 call <sid>hi("DiffAdd",      s:guigreenb, "",  "", "", "", "")
-call <sid>hi("DiffChange",   s:guiyellow, "",  "", "", "", "")
+call <sid>hi("DiffChange",   "", "",  "", "", "", "")
 call <sid>hi("DiffDelete",   s:guiredb, "",  "", "", "", "")
 call <sid>hi("DiffText",     s:guiyellow, "",  "", "", "", "")
 call <sid>hi("DiffAdded",    s:guiyellowb, "",  "", "", "", "")
@@ -306,7 +306,7 @@ call <sid>hi("SignifySignChange",  s:guimagentab, s:guired, "", "", "", "")
 call <sid>hi("SignifySignDelete",  s:guiblackb, s:guired, "", "", "", "")
 
 " Spelling highlighting
-call <sid>hi("SpellBad",     "", "", "", "", "undercurl", s:guiblackb)
+call <sid>hi("SpellBad",     "", "", "", "", "undercurl", s:guiredb)
 call <sid>hi("SpellLocal",   "", "", "", "", "undercurl", s:guiblueb)
 call <sid>hi("SpellCap",     "", "", "", "", "undercurl", s:guimagentab)
 call <sid>hi("SpellRare",    "", "", "", "", "undercurl", s:guicyanb)
