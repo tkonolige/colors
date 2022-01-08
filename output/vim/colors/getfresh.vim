@@ -332,6 +332,10 @@ call <sid>hi("rustFuncName",  s:guimagenta, "", "", "", "", "")
 call <sid>hi("rustFuncCall",  s:guiwhiteb, "", "", "", "", "")
 
 " LSP
+call <sid>hi("DiagnosticError",  s:guiredb, "", "", "", "", "")
+call <sid>hi("DiagnosticWarn",  s:guimagenta, "", "", "", "", "")
+call <sid>hi("DiagnosticInfo",  s:guiyellow, "", "", "", "", "")
+call <sid>hi("DiagnosticHint",  s:guiwhite, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsError",  s:guimagenta, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsWarning",  s:guired, "", "", "", "", "")
 call <sid>hi("LspDiagnosticsInformation",  s:guiyellow, "", "", "", "", "")
